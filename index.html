@@ -2,25 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="description" content="In this website, you can see images related to nature." />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="Beautiful Nature" />
-<meta property="og:description" content="The best nature images" />
-<meta property="og:url" content="https://yourwebsite.com" />
-<meta property="og:type" content="website" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="description"
+      content="In this website, you can see images related to nature."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Beautiful Nature" />
+    <meta property="og:description" content="The best nature images" />
 
-<!-- Sentra MK THEME -->
-<title>Beautiful Nature</title>
-<link rel="apple-touch-icon" href="apple-touch-icon.png" />
-<link rel="shortcut icon" href="./batman-6-16.ico" type="image/x-icon" />
 
-<link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
-<link rel="stylesheet" href="css/fontAwesome.css" />
-<link rel="stylesheet" href="css/light-box.css" />
-<link rel="stylesheet" href="css/owl-carousel.css" />
-<link rel="stylesheet" href="css/templatemo-style.css" />
+    <!-- Sentra MK THEME -->
+    <title>Beautiful Nature</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="shortcut icon" href="./batman-6-16.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/fontAwesome.css" />
+    <link rel="stylesheet" href="css/light-box.css" />
+    <link rel="stylesheet" href="css/owl-carousel.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"
@@ -253,9 +255,7 @@
               <div class="text-content">
                 <h4>In volutpat augue lectus</h4>
                 <span>Elementum</span>
-                <p>
-        
-                </p>
+                <p></p>
               </div>
             </div>
             <div class="item">
@@ -268,9 +268,7 @@
               <div class="text-content">
                 <h4>Cras commodo odio</h4>
                 <span>Aliquam</span>
-                <p>
-        
-                </p>
+                <p></p>
               </div>
             </div>
             <div class="item">
@@ -287,9 +285,7 @@
               <div class="text-content">
                 <h4>Sed at massa turpis</h4>
                 <span>Curabitur</span>
-                <p>
-
-                </p>
+                <p></p>
               </div>
             </div>
             <div class="item">
@@ -306,9 +302,7 @@
               <div class="text-content">
                 <h4>Aliquam mollis lacus</h4>
                 <span>Suspendisse</span>
-                <p>
-          
-                </p>
+                <p></p>
               </div>
             </div>
             <div class="item">
@@ -863,7 +857,7 @@
       let didScroll;
       let lastScrollTop = 0;
       let delta = 5;
-      let navbarHeight = $('header').outerHeight();
+      let navbarHeight = $("header").outerHeight();
 
       $(window).scroll(function (event) {
         didScroll = true;
@@ -882,10 +876,10 @@
         if (Math.abs(lastScrollTop - st) <= delta) return;
 
         if (st > lastScrollTop && st > navbarHeight) {
-          $('header').removeClass('nav-down').addClass('nav-up');
+          $("header").removeClass("nav-down").addClass("nav-up");
         } else {
           if (st + $(window).height() < $(document).height()) {
-            $('header').removeClass('nav-up').addClass('nav-down');
+            $("header").removeClass("nav-up").addClass("nav-down");
           }
         }
 
